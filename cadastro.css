@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: red;
+}
+
+/* Estilo do título no header */
+#titulo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* Estilo para o botão de logout */
+.logout-btn button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hover effect para o botão logout */
+.logout-btn button:hover {
+    background-color: #c0392b;
+}
+
+form {
+    background-color: #ffffff; 
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    margin-left: 38%;
+    margin-top: 5%;
+    max-width: 400px; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo para os labels do formulário */
+form label {
+    font-size: 1rem;
+    color: #333333; 
+    font-weight: bold;
+}
+
+/* Estilo para os campos de entrada de texto */
+form input[type="text"], form input[type="email"], form input[type="password"], form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dcdcdc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9;
+    color: #333333; 
+    font-size: 1rem;
+    transition: border-color 0.2s ease-in-out; 
+}
+
+/* Estilo para os inputs quando focados */
+form input[type="text"]:focus, form input[type="email"]:focus, form input[type="password"]:focus, form select:focus {
+    border-color: #888888; 
+}
+
+/* Estilo para o botão de submit */
+form input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #4CAF50; 
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover effect para o botão de submit */
+form input[type="submit"]:hover {
+    background-color: #45a049; 
+}
+

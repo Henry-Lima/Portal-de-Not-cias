@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: black; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+    color: white; 
+}
+
+#titulo {
+    font-size: 2rem;
+    color: red; 
+    margin: 0;
+}
+
+.botao-container {
+    display: flex;
+    gap: 10px; 
+    margin-right: 50%;
+}
+
+.logout-btn {
+    text-decoration: none;
+}
+
+.logout-btn button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white; 
+    background-color: #333333; 
+    border: 1px solid #555555; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn button:hover {
+    background-color: #555555; 
+}
+
+.noticias button {
+    background-color: #4CAF50; 
+}
+
+.noticias button:hover {
+    background-color: #45a049;
+}
+
+form {
+    background-color: gray; 
+    padding: 30px;      
+    padding-right: 3%;
+    border: 1px solid #000000; 
+    border-radius: 10px;    
+    width: 100%;
+    max-width: 600px;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;                
+    color: #f0f0f0;           
+}
+
+/* Estilo das labels */
+form .label {
+    font-weight: bold;
+    color: rgb(0, 0, 0)    ; 
+    margin-bottom: 5px;
+}
+
+/* Estilo dos inputs */ 
+form .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ffffff; 
+    border-radius: 5px;
+    background-color: #e0e0e0; 
+    color: #000000;            
+    font-size: 1rem;           
+}
+
+form .input::placeholder {
+    color: #555; 
+}
+
+/* Estilo do campo de upload de imagem */
+form input[type="file"] {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo do botão de envio */
+form #btn {
+    padding: 10px 50px;      
+    font-size: 1rem;            
+    background-color: green; 
+    color: #f0f0f0;            
+    font-weight: bold;         
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease; 
+}
+
+form #btn:hover {
+    background-color: rgb(3, 201, 3); 
+    transform: scale(1.05);    
+}
